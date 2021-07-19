@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-shadow: 'none' !important;  
+}
+
+body {
+    background-color: whitesmoke ;
+}
+
+.job-component {
+    margin: 1rem;
+    display: flex;
+}
+
+.job-component .img{
+    flex:  1;
+    margin-left: 0.5rem;
+}
+
+.job-component .date {
+    flex: 2;
+}
+.job-component .info {
+    flex: 5;
+    margin-left: 0.5rem;
+
+}
+
+
+.job-component img {
+    height:  120px;
+    width: 120px;
+}
+.job-column a {
+    color: none;
+    text-decoration: none !important;
+}
+
+.paginationBttns {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationBttns a {
+    padding: 10px;
+    margin: 0.5rem;
+    border-radius: 5px;
+    color: #2b2eff;
+    cursor: pointer;
+}
+
+.paginationActive a {
+    background-color: #2b2eff;
+    color: white !important;
+}
+
+.sign-in {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sign-in p  {
+    flex: 1;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.sign-in img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.hero {
+    background-image: url('../assets/backgroundImg.png') ; 
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.login {
+    height: 90vh ;
+    display: flex ; 
+    flex-direction: column ; 
+    justify-content : center ; 
+    align-items : center;
+}
+
+.job {
+    background-color:'orange' !important ; 
+    color : 'white' ; 
+    padding: '5px';
+}
+
+.job-column {
+    font-family: 'Roboto', sans-serif;
+}
+
+.flexDirection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flexDirection h6 , .flexDirection h5 , .flexDirection p {
+    flex: 1;
+} 
+
+.flexDis {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.flexDis p {
+
+}
+
+.filter {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.singleJob {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.title {
+    position: relative;
+    top: -5px;
+    right: -10px;
+    width: 80px;
+    font-size: 1rem;
+}
+
+.description h1,  
+.description h2, 
+.description h3,
+.description h4,  
+.description h5  {
+    font-size: 1.2rem !important;
+}
+
+.description .h1 {
+    font-size: 1.2rem !important;
+
+}
+.description img {
+    height:  auto;
+    max-width: 100%;
+}
+
+
+.footer {
+    margin-top: 8rem;
+    padding: 1rem;
+    background-color: orange;  
+}
+
+.footer p {
+    color: black;
+    text-align:  center;
+    font-family: 'Roboto', sans-serif;
+}
+@media only screen and (max-width: 1319px){
+.job-component img {
+    /* height:  80px; */
+    /* width: 80px; */
+  }
+
+  .job-component .info {
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 767px){
+.apply {
+    justify-content: flex-start !important;
+    margin-top: 1rem;
+}
+
+.back {
+    margin-bottom: 1rem;
+}
+
+.logo h1{
+    text-align:  center !important;
+}
+}
