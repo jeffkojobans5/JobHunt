@@ -22,9 +22,9 @@ const JobProvider = ({children}) => {
         })
         .then(data => {
             let filtered =  data['jobs'].filter(item => item.category === 'Software Development'  || item.category === 'Design' || item.category === 'Product'  || item.category === 'DevOps / Sysadmin'   )
-            isLoading(false)
             setJobs(filtered)
             setFilter(filtered)
+            isLoading(false)
         }).catch(error => {
             isLoading(false)            
         })
