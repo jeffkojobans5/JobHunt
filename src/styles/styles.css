@@ -115,10 +115,6 @@ body {
     align-items: flex-end;
 }
 
-.flexDis p {
-
-}
-
 .filter {
     font-family: 'Roboto', sans-serif;
 }
@@ -166,11 +162,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 @media only screen and (max-width: 1319px){
-.job-component img {
-    /* height:  80px; */
-    /* width: 80px; */
-  }
-
   .job-component .info {
     margin-left: 1rem;
   }
